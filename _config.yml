@@ -1,0 +1,30 @@
+title: Azure ML-Ops (Accelerator)
+lang: en
+description: Azure ML-Ops Project Accelerator
+
+## local method ##
+#theme: jekyll-rtd-theme
+#debug:
+#  compress: false
+#  dist: true
+#  shortcodes: true
+
+## remote method ##
+remote_theme: rundocs/jekyll-rtd-theme
+
+readme_index:
+  with_frontmatter: true
+
+##Adding include and relative_permalinks: false to try and fix issue of images in subfolders failing to render in github pages 25Nov21
+include: ['1-MLOps Foundations/0-DevOpsOverview/_img']
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
+  
+# baseurl: https://microsoft.github.io/azureml-ops-accelerator/
